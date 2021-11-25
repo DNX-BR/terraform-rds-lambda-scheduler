@@ -20,5 +20,5 @@ variable "enable_stop" {
 
 variable "is_cluster" {
   default     = false
-  description = "Enable it when working with RDS clusters"
+  description = "Enable it when working with RDS clusters or Aurora"
 }
